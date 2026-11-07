@@ -16,6 +16,10 @@ public class Slime : MonoBehaviour
     private void Start()
     {
         hp = 100;
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            //
+        }
     }
 
     //Funkcja wywo³ywana przy trafieniu
